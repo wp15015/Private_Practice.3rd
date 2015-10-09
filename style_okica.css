@@ -1,0 +1,238 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+body{
+	background-image: url(img/back_g.jpg);
+}
+
+header{
+	width: 100%;
+	height: 98px;
+	font-size: px;
+}
+
+#h-wrapper{
+	width: 980px;
+	margin: 0px auto;
+}
+
+h1{
+	width: 400px;
+	height: 85px;
+	font-size: 13px;
+	float: left;
+}
+
+#h1-text{
+	border-bottom: 3px solid #fe2e2e;
+	color: #fe2e2e;
+	position: relative;
+	bottom: 40px;
+}
+
+.ic-blue{
+	color: #0000ff;
+}
+
+#header-link {
+	width: 196px;
+	height: 24px;
+	float: right;
+	margin-right: 62px;
+}
+
+#header-link ul{
+	list-style-type: none;
+	display: table;
+}
+
+#header-link ul li{
+	display: table-cell;
+	text-indent: 20px;
+	padding-right: 18px;
+}
+
+#header-link ul li a{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+
+.kaisha{
+	background-image: url(img/icon_company.png);
+	background-repeat: no-repeat;
+}
+
+.yokuaru{
+	background-image: url(img/icon_question.png);
+	background-repeat: no-repeat;
+}
+
+nav{
+	width: 100%;
+	height: 65px;
+	background-image: url(img/menuline.png);
+}
+
+nav ul{
+	width: 980px;
+	height: 65px;
+	margin: auto;
+	list-style: none;
+	display: table;
+	table-layout: fixed;
+}
+
+nav ul li{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+/*	text-indent: 45px;*/
+	background: url(img/icon_2.png) no-repeat;
+	background-position: 0px 20px;
+}
+
+nav ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 13px;
+	display: block;
+}
+
+main{
+	width: 980px;
+	margin: 0px auto;
+	border: 1px solid #000000;
+}
+
+#breadcrumb{
+	width: 100%;
+/*	height: 50px;*/
+	font-size: 14px;
+	color: #ffffff;
+	padding: 18px 0 25px 0;
+}
+
+#breadcrumb a{
+	font-size: 14px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+aside{
+	width: 222px;
+	height: 500px;
+	background: #ffffff;
+	float: left;
+}
+
+aside ul{
+	width: 80%;
+	list-style-type: none;
+	margin: auto;
+}
+
+aside ul li{
+	margin: 10px 0px;
+	background: url(img/icon_1.png) no-repeat;
+	text-indent: 30px;
+}
+/*
+aside ul li::before{
+	content: url(img/icon_1.png);
+	position: relative;
+	top: 3px;
+	margin-right: 10px;
+}
+*/
+aside ul a{
+	color: #27ae60;
+	text-decoration: none;
+	display: block;
+}
+
+section{
+	width: 746px;
+	height: 2010px;
+	background: #ffffff;
+	float: right;
+}
+
+.article-box{
+	width: 714px;
+	height: 300px;
+	background: #ffffff;
+	margin: 10px auto;
+	border: 1px solid;/*仮の値*/
+}
+
+.article-box h2{
+	width: 690px;
+	height: 86px;
+	margin: 0 auto;
+	background-image: url(img/title_g.jpg);
+	background-repeat: no-repeat;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 20px;
+	text-indent: 152px;
+	line-height: 4em;
+}
+
+#okicatowa{
+	width: 714px;
+
+}
+
+#okicatowa-l{
+	width: 364px;
+}
+
+#main-footer{
+	width: 100%;
+	height: 110px;
+}
+
+footer{
+	width: 100%;
+/*	height: 264px;*/
+}
+
+#site-map-bg{
+	width: 100%;
+	height: 65px;
+	background-image: url(img/menuline.png);
+}
+
+#site-map-image{
+	width: 980px;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+	top: 7px;
+}
+
+.f_map{
+	margin-top: 5px;
+}
+
+#site-map-link{
+	width: 980px;
+	height: 198px;
+	margin: 0 auto;
+}
+
+#copyright{
+	width: 100%;
+	height: 17px;
+	background: #ffffff;
+}
